@@ -5,8 +5,9 @@
 @Range (0.0, 10.0)
 var speed : int;
 @Range (0.0, 10.0)
-var turnSpeed : int;
+var turnSpeed : float;
 var angle : float;
+var newAngle : float;
 var possessed : boolean;
 
 var h : float;
@@ -85,9 +86,10 @@ switch(movementType){
 		lockedAngle = 1;
 	break;
 }
-var newAngle : float;
-	newAngle= Mathf.Round(angle/ lockedAngle) * lockedAngle;
+	if(smoothTurn) newAngle = Mathf.Lerp(newAngle,Mathf.Round(angle/ lockedAngle) * lockedAngle, turnSpeed * 5 * Time.deltaTime);
+		else newAngle = Mathf.Round(angle/ lockedAngle) * lockedAngle;
 angle = newAngle;
+
      //transform.rotation = Quaternion.AngleAxis(90.0 - angle, Vector3.up);
      //transform.eulerAngles.x = 270;
      //moveDirection = angle;

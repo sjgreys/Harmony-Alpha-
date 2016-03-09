@@ -41,14 +41,14 @@ if(!inEditor){
 posPrev = transform.position;
 if(angle > 360) angle = 0;
 if(!inEditor)angle = Mathf.Abs(motorScript.angle - 180);
-if(angle == 90) moveDirection = Direction.Up;
-if(motorScript.movementType == MovementType.eightWay)if(angle > 0 && angle < 90) moveDirection = Direction.UpRight;
-if(angle == 360 ||angle == 0) moveDirection = Direction.Right;
-if(motorScript.movementType == MovementType.eightWay)if(angle > 270 &&  angle < 360) moveDirection = Direction.DownRight;
-if(angle == 270) moveDirection = Direction.Down;
-if(motorScript.movementType == MovementType.eightWay)if(angle > 180 && angle < 270) moveDirection = Direction.DownLeft;
-if(angle == 180) moveDirection = Direction.Left;
-if(motorScript.movementType == MovementType.eightWay)if(angle > 90 &&  angle < 180) moveDirection = Direction.UpLeft;
+if(angle > 68 && angle < 112) moveDirection = Direction.Up;
+if(motorScript.movementType == MovementType.eightWay)if(angle <68 && angle > 23) moveDirection = Direction.UpRight;
+if(angle < 23 && angle >= 0 || angle <= 360 && angle > 338) moveDirection = Direction.Right;
+if(motorScript.movementType == MovementType.eightWay)if(angle > 293 &&  angle < 338) moveDirection = Direction.DownRight;
+if(angle > 248 && angle < 293) moveDirection = Direction.Down;
+if(motorScript.movementType == MovementType.eightWay)if(angle > 203 && angle < 248) moveDirection = Direction.DownLeft;
+if(angle > 158 && angle < 203) moveDirection = Direction.Left;
+if(motorScript.movementType == MovementType.eightWay)if(angle > 112 &&  angle < 158) moveDirection = Direction.UpLeft;
 	switch(moveDirection){
 		case Direction.Up :
 			Up();
