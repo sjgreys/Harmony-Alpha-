@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: bfe9c83537f628c499f24c39b830ca9d
+timeCreated: 1457586179
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: scarfRun_0
+    21300002: scarfRun_1
+    21300004: scarfRun_2
+    21300006: scarfRun_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 320
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: scarfRun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: .49555248, y: .500425398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarfRun_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: .524720013, y: .498545945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarfRun_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: .49775371, y: .50019908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scarfRun_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: .501232147, y: .502088547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
